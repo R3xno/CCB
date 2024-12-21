@@ -6,7 +6,7 @@ class Config(object):
     sudo_users = "7053677913", "1732582235", "6977793872"
     GROUP_ID = -1002437903458,
     TOKEN = "7308335879:AAHTi3IjB6OcOtxsutJfAEdnfCuMnis5X6Y"
-    mongo_url = "mongodb+srv://HaremDBBot:ThisIsPasswordForHaremDB@haremdb.swzjngj.mongodb.net/?retryWrites=true&w=majority"
+    mongo_url = "mongodb+srv://kalawativerma80:haremdbforbot@finepixel.afi4pra.mongodb.net/?retryWrites=true&w=majority&appName=finepixel"
     PHOTO_URL = ["https://telegra.ph/file/b925c3985f0f325e62e17.jpg", "https://telegra.ph/file/4211fb191383d895dab9d.jpg"]
     SUPPORT_CHAT = "GetCricketPlayers"
     UPDATE_CHAT = "GetCricketPlayers"
