@@ -36,7 +36,7 @@ async def start(update: Update, context: CallbackContext) -> None:
         caption = f"""
         ***Heyyyy...***
 
-***I am An Open Crickter Catcher Bot...​Add Me in Your group.. And I will send Random Crickter After.. every 100 messages in Group... Use /guess to.. Collect that Characters in Your Collection.. and see Collection by using /collection... So add in Your groups and Collect Your crickter***
+***I am An Open Waifu Catcher Bot...​Add Me in Your group.. And I will send Random Waifu After.. every 100 messages in Group... Use /guess to.. Collect that Characters in Your Collection.. and see Collection by using /collection... So add in Your groups and Collect Your Waifu***
         """
         
         keyboard = [
@@ -57,8 +57,6 @@ async def start(update: Update, context: CallbackContext) -> None:
             [InlineKeyboardButton("SUPPORT", url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton("UPDATES", url=f'https://t.me/{UPDATE_CHAT}')],
             [InlineKeyboardButton("HELP", callback_data='help')],
-            [InlineKeyboardButton("SOURCE", url=f'https://github.com/MyNameIsShekhar/WAIFU-HUSBANDO-CATCHER')]
-        ]
         
         reply_markup = InlineKeyboardMarkup(keyboard)
         await context.bot.send_photo(chat_id=update.effective_chat.id, photo=photo_url, caption="🎴Alive!?... \n connect to me in PM For more information ",reply_markup=reply_markup )
